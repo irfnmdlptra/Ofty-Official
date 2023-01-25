@@ -1,127 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html id="abc" name="name1">
+<head id="abc" name="name2">
   <head>
-    <title>Ofty Official - Indestructible Like Cat</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
-    <style>/* Global Styles */
-      body {
-        font-family: 'Open Sans', sans-serif;
-        background-color: #f5f5f5;
+    <style>
+      /* Styling for the form */
+      form {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
       }
-      
-      a {
-        color: #ff6f00;
-        text-decoration: none;
-        transition: all 0.3s ease-in-out;
+  
+      /* Styling for the input fields */
+      input[type="text"], textarea {
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
       }
-      
-      a:hover {
-        color: #fff;
-        background-color: #ff6f00;
-        padding: 5px 10px;
-        border-radius: 3px;
-      }
-      
-      /* Jumbotron Styles */
-      .jumbotron {
-        background-image: url('https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-        background-size: cover;
-        background-position: center;
+  
+      /* Styling for the buttons */
+      input[type="button"], input[type="reset"] {
+        background-color: #4CAF50;
         color: white;
-        text-shadow: 2px 2px 4px #000000;
-      }
-      
-      .jumbotron h1 {
-        font-size: 4em;
-      }
-      
-      .jumbotron p {
-        font-size: 1.5em;
-      }
-      
-      /* Card Styles */
-      .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        transition: all 0.3s ease-in-out;
+        padding: 14px 20px;
+        margin: 8px 0;
         border: none;
+        border-radius: 4px;
+        cursor: pointer;
       }
-      
-      .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        transform: scale(1.05);
-      }
-      
-      .card-img-top {
-        width: 100%;
-        height: auto;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
-      }
-      
-      .card-body {
-        background-color: #f5f5f5;
-        border-bottom-left-radius: 3px;
-        border-bottom-right-radius: 3px;
-      }
-      
-      /* Responsive Styles */
-      @media (max-width: 992px) {
-        .jumbotron h1 {
-          font-size: 3em;
-        }
-        .jumbotron p {
-          font-size: 1.2em;
-        }
-      }
-      
-    </style>
-  </head>
-  <body>
-    <div class="jumbotron">
-      <h1 class="display-4">Ofty Official</h1>
-      <p class="lead">Indestructible Like Cat</p>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="cat" width="100%" height="auto">
-        </div>
-        <div class="col-md-6">
-          <h2>About Ofty Official</h2>
-          <p>T-shirt Ofty merupakan produk pakaian dengan kualitas, cerita, serta identitas yang dipadukan menjadi satu untuk menambah nilai saat kalian memakainya. Dibuat dengan bahan cotton combed 24s yang nyaman untuk menemani harimu dan memiliki desain unik serta menarik.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Testimoni Pelanggan</h2>
-          <div class="card-deck">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">"Keren, bagus banget, lucu"</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">"Sangat recommended, bahan nya empuk dan desainnya unik"</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">"Sangat cocok untuk aktivitas sehari-hari, nyaman dan stylish"</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Contact Us</h2>
-          <p>Phone: +62 812-9004-8169</p>          
-          <p>Social Media: <a href="https://instagram.com/ofty.ofc?igshid=Yzg5MTU1MDY=">Instagram</a></p>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+  
+      /* Add hover effect for buttons */
+      input[type="button"]:hover, input[type="reset"]:hover {
+background-color: #45a049;
+}
 
-         
+/* Add some spacing and styling for the heading */
+h1 {
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Add some styling for the HR elements */
+hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+</style>
+  
+<script type="text/javascript" id="abc">
+    function kirim() {
+     var a=document.getElementById("abc").innerHTML;
+     var b=document.getElementById("teks").value;
+     var c=document.getElementById("kepala").value;
+     document.write(a + "<br />" + "<br />");
+     document.write(b + "<br />");
+     document.write(c);
+  }
+</script>
+</head>
+<body>
+<form>
+<h1>Silahkan berikan komentar anda</h1><br /><br>
+Nama Anda :</br>
+<input type=text name="text" id="teks" size="35"><br /><br> 
+Komentar :</br>
+<textarea rows="12" name="b" id="kepala" cols="35" wrap="virtual"></textarea><br /><br>
+<input type="button" onclick="kirim()" value="Komentar" />
+<input name="Clear" type="reset" value="Batal" />
+</form><br />
+<hr style="border: 1px dashed black;"></hr>
+<hr></hr>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Email: <input type="email" id="email" name="email">
+        <br>
+        <span id="email-output"></span>
+        <br>
+        <input type="submit" value="Submit" onclick="showEmail()">
+      </form>
+     
+      <script>
+        function showEmail() {
+  var email = document.getElementById("email").value;
+  document.getElementById("email-output").innerHTML = email;
+}
+
+      </script>
+
+      
+</body>
+</html>
